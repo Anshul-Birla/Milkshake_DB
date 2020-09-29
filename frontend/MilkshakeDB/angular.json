@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "MilkshakeDB"
+    }
+  },
+  "defaultProject": "MilkshakeDB",
+  "cli": {
+    "analytics": "fb9f79ee-93f3-477b-94bb-7aec404f280b"
+  }
 }
