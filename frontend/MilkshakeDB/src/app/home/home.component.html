@@ -7,6 +7,23 @@
       <h2 class="subtitle">
         Enter some ingredients
       </h2>
+      <nav class="level">
+        <div class="level-left">
+          <div class="level-item">
+            <div class="field">
+              <div class="control">
+                <label>
+                  <input class="input is-rounded is-medium" type="text" placeholder="Ingredients" [(ngModel)]="ingredients">
+                </label>
+              </div>
+            </div>
+              <button type="submit" class="button is-medium is-rounded" (click)="onClick()" >
+                Search!
+              </button>
+          </div>
+        </div>
+      </nav>
+
     </div>
   </div>
 </section>

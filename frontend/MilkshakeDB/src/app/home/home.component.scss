@@ -1,5 +1,9 @@
+/*
 .hero {
   background-image: url("../../assets/milkshake_hero.jpg") !important;
   background-size: cover;
   background-position: center center;
+} */
+.hero {
+  background: black url("../../assets/milkshake_hero.jpg") center / cover !important;
 }

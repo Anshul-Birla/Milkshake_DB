@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
+  ingredients: string;
   constructor() { }
 
   ngOnInit(): void {
+  }
+  onClick(): void {
+    alert(this.ingredients);
   }
 
 }
